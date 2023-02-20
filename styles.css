@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans&family=Roboto:wght@100;300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    padding: 8rem;
+    background-image: url(https://i0.wp.com/dev.revenulytics.com/wp-content/uploads/2022/12/homeBG.jpg?fit=1920%2C1080&ssl=1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    object-fit: cover;
+}
+
+.why-header {
+    color: #03B4C6;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    font-size: 2.8em;
+}
+
+.we-serve-header {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+    font-size: 2.8em;
+}
+
+.why-desc {
+    font-family: 'Open Sans', sans-serif;
+    color: #3B3B3B;
+    padding: 0 8.75rem 0 8.75rem;
+    font-size: 1.125em;
+}
+
+.we-serve {
+    background: #41698D;
+    font-family: 'Open Sans', sans-serif;
+    color: #3B3B3B;
+    padding: 0 8.75rem 0 8.75rem;
+    font-size: 1.125em;
+
+}
+
+.card:hover {
+    border: 2px solid #BB4790;
+    box-shadow: 0px 0px 10px 0px rgb(0 0 0 / 50%);
+    cursor: pointer;
+
+}
+
+.cards-header {
+    color: #41698D;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    line-height: 1.2em;
+    letter-spacing: 2px;
+}
+
+.cards-desc {
+    text-align: center;
+    color: #3B3B3B;
+    font-family: "Open Sans Condensed", Sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.4em;
+    letter-spacing: 2px;
+}
+
+.caro-text,
+.caro-text-span {
+    text-align: left;
+    color: #3B3B3B;
+    font-family: "Bebas Neue", Sans-serif;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 1.4em;
+}
+
+#caro-sec {
+    background-color: #F5F5F5;
+}
+
+.we-convo {
+    background-color: #03b4c6;
+}
+
+.contact-btn {
+    background-color: #41698D;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    border: none;
+}
+
+.elementor-divider-separator {
+    background-color: #41698D;
+    width: 8%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
